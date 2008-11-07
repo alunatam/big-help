@@ -6,6 +6,20 @@ div#main {
 	border:3px solid #ddd;
 	font-family: Verdana, Arial, sans-serif;
 }
+div#main h2, div#main h3 {
+	font-weight:bold;
+	padding:6px 0;
+}
+div#main p {
+	padding:6px 0;
+}
+
+
+
+
+
+
+
 div#main fieldset {
 	margin:12px 0px;
 	border:1px solid #ddd;
@@ -18,7 +32,7 @@ div#main legend {
 	font-weight:bold;
 	font-size:.8em;
 }
-div#main p {
+div#main fieldset p {
 	padding:6px 12px;
 	font-size:.8em;
 	color:#444;

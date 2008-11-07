@@ -1478,3 +1478,177 @@ c2h7AAY6CkB1c2VkewA=--9f868a3cc0c82a651aefac7b6b9ace9d8bab122d
 Rendering template within layouts/application
 Rendering help/show
 Completed in 0.01126 (88 reqs/sec) | Rendering: 0.00322 (28%) | DB: 0.00204 (18%) | 200 OK [http://localhost/help/show?key=TPBPMHIF]
+
+
+Processing HelpController#index (for 127.0.0.1 at 2008-11-06 22:20:12) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNTU5ZTkxMGNkMzU5NDc3YzViZDQzMDllMzgzNGM0
+ZGQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9f868a3cc0c82a651aefac7b6b9ace9d8bab122d
+  Parameters: {"action"=>"index", "controller"=>"help"}
+Rendering template within layouts/application
+Rendering help/index
+
+
+ActionView::MissingTemplate (Missing template help/index.html.erb in view path /Users/erikdungan/Projects-Git/BIGHelpOpenSource/app/views):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:85:in `raise_missing_template_exception'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:78:in `set_extension_and_file_name'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:15:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `render_file'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1108:in `render_for_file'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:841:in `render_with_no_layout'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/layout.rb:251:in `render_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1157:in `default_render'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1163:in `perform_action_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5.1/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5.1/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5.1/bin/../lib/mongrel.rb:159:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5.1/bin/../lib/mongrel.rb:158:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5.1/bin/../lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5.1/bin/../lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5.1/bin/../lib/mongrel.rb:268:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5.1/bin/../lib/mongrel/configurator.rb:282:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5.1/bin/../lib/mongrel/configurator.rb:281:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5.1/bin/mongrel_rails:129:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5.1/bin/../lib/mongrel/command.rb:212:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5.1/bin/mongrel_rails:280
+    /usr/local/bin/mongrel_rails:16
+
+Rendering /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing HelpController#index (for 127.0.0.1 at 2008-11-06 22:21:03) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNTU5ZTkxMGNkMzU5NDc3YzViZDQzMDllMzgzNGM0
+ZGQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9f868a3cc0c82a651aefac7b6b9ace9d8bab122d
+  Parameters: {"action"=>"index", "controller"=>"help"}
+Rendering template within layouts/application
+Rendering help/index
+Completed in 0.00341 (293 reqs/sec) | Rendering: 0.00150 (44%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HelpController#index (for 127.0.0.1 at 2008-11-06 22:23:15) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNTU5ZTkxMGNkMzU5NDc3YzViZDQzMDllMzgzNGM0
+ZGQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9f868a3cc0c82a651aefac7b6b9ace9d8bab122d
+  Parameters: {"action"=>"index", "controller"=>"help"}
+Rendering template within layouts/application
+Rendering help/index
+Completed in 0.00406 (246 reqs/sec) | Rendering: 0.00208 (51%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HelpController#index (for 127.0.0.1 at 2008-11-06 22:23:36) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNTU5ZTkxMGNkMzU5NDc3YzViZDQzMDllMzgzNGM0
+ZGQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9f868a3cc0c82a651aefac7b6b9ace9d8bab122d
+  Parameters: {"action"=>"index", "controller"=>"help"}
+Rendering template within layouts/application
+Rendering help/index
+Completed in 0.00347 (288 reqs/sec) | Rendering: 0.00144 (41%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HelpController#index (for 127.0.0.1 at 2008-11-06 22:24:12) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNTU5ZTkxMGNkMzU5NDc3YzViZDQzMDllMzgzNGM0
+ZGQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9f868a3cc0c82a651aefac7b6b9ace9d8bab122d
+  Parameters: {"action"=>"index", "controller"=>"help"}
+Rendering template within layouts/application
+Rendering help/index
+Completed in 0.00365 (273 reqs/sec) | Rendering: 0.00155 (42%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HelpController#index (for 127.0.0.1 at 2008-11-06 22:24:44) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNTU5ZTkxMGNkMzU5NDc3YzViZDQzMDllMzgzNGM0
+ZGQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9f868a3cc0c82a651aefac7b6b9ace9d8bab122d
+  Parameters: {"action"=>"index", "controller"=>"help"}
+Rendering template within layouts/application
+Rendering help/index
+Completed in 0.00373 (268 reqs/sec) | Rendering: 0.00171 (45%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HelpController#index (for 127.0.0.1 at 2008-11-06 22:25:49) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNTU5ZTkxMGNkMzU5NDc3YzViZDQzMDllMzgzNGM0
+ZGQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9f868a3cc0c82a651aefac7b6b9ace9d8bab122d
+  Parameters: {"action"=>"index", "controller"=>"help"}
+Rendering template within layouts/application
+Rendering help/index
+Completed in 0.00419 (238 reqs/sec) | Rendering: 0.00210 (50%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HelpController#index (for 127.0.0.1 at 2008-11-06 22:26:02) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNTU5ZTkxMGNkMzU5NDc3YzViZDQzMDllMzgzNGM0
+ZGQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9f868a3cc0c82a651aefac7b6b9ace9d8bab122d
+  Parameters: {"action"=>"index", "controller"=>"help"}
+Rendering template within layouts/application
+Rendering help/index
+Completed in 0.00383 (261 reqs/sec) | Rendering: 0.00186 (48%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HelpController#index (for 127.0.0.1 at 2008-11-06 22:26:16) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNTU5ZTkxMGNkMzU5NDc3YzViZDQzMDllMzgzNGM0
+ZGQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9f868a3cc0c82a651aefac7b6b9ace9d8bab122d
+  Parameters: {"action"=>"index", "controller"=>"help"}
+Rendering template within layouts/application
+Rendering help/index
+Completed in 0.00337 (296 reqs/sec) | Rendering: 0.00135 (40%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HelpController#new (for 127.0.0.1 at 2008-11-06 22:26:30) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNTU5ZTkxMGNkMzU5NDc3YzViZDQzMDllMzgzNGM0
+ZGQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9f868a3cc0c82a651aefac7b6b9ace9d8bab122d
+  Parameters: {"action"=>"new", "controller"=>"help"}
+  [4;35;1mTicket Columns (0.000971)[0m   [0mSHOW FIELDS FROM `tickets`[0m
+Rendering template within layouts/application
+Rendering help/new
+Rendered help/_form (0.00300)
+Completed in 0.01097 (91 reqs/sec) | Rendering: 0.00450 (41%) | DB: 0.00097 (8%) | 200 OK [http://localhost/help/new]
+
+
+Processing HelpController#new (for 127.0.0.1 at 2008-11-06 22:29:54) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNTU5ZTkxMGNkMzU5NDc3YzViZDQzMDllMzgzNGM0
+ZGQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9f868a3cc0c82a651aefac7b6b9ace9d8bab122d
+  Parameters: {"action"=>"new", "controller"=>"help"}
+  [4;36;1mTicket Columns (0.001028)[0m   [0;1mSHOW FIELDS FROM `tickets`[0m
+Rendering template within layouts/application
+Rendering help/new
+Rendered help/_form (0.00302)
+Completed in 0.10389 (9 reqs/sec) | Rendering: 0.00629 (6%) | DB: 0.00103 (0%) | 200 OK [http://localhost/help/new]
+
+
+Processing HelpController#new (for 127.0.0.1 at 2008-11-06 22:30:31) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNTU5ZTkxMGNkMzU5NDc3YzViZDQzMDllMzgzNGM0
+ZGQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--9f868a3cc0c82a651aefac7b6b9ace9d8bab122d
+  Parameters: {"action"=>"new", "controller"=>"help"}
+  [4;35;1mTicket Columns (0.000941)[0m   [0mSHOW FIELDS FROM `tickets`[0m
+Rendering template within layouts/application
+Rendering help/new
+Rendered help/_form (0.00290)
+Completed in 0.01227 (81 reqs/sec) | Rendering: 0.00573 (46%) | DB: 0.00094 (7%) | 200 OK [http://localhost/help/new]
