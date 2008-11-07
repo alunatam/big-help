@@ -5,6 +5,10 @@ class UsersController < ApplicationController
 
   # render new.rhtml
   def new
+    # IMPORTANT: When you're ready to turn OFF signups (i.e. once your staff have all created accounts)
+    # uncomment the following line (it will redirect people back to the app root)
+    # redirect_back_or_default('/')
+    
     @user = User.new
   end
  
