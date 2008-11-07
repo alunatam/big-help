@@ -2,6 +2,21 @@
 
 Welcome to BIG Help. BIG Help is an open-source help ticket system that can be used by consumer-focused web companies.
 
+== Roadmap
+
+Done:
+- Ticket model
+- Help controller
+- Tickets can be submitted
+
+Coming up: 
+- Email notification to customer
+- Adding support users & authentication
+- Email notifications to support users
+- Admin controller for support users (to browse tickets)
+- Ability to add messages to tickets
+- Mobile version(?)
+
 == Setup
 
 1. Create your database
