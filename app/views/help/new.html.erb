@@ -1,0 +1,3 @@
+<h2><%= AppConfig['company_name'] %>: Submit a Help Ticket</h2>
+<% if flash[:warning] %><%= flash[:warning] -%><% end %>	
+<%= render :partial => 'form' %>

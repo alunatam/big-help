@@ -1,0 +1,10 @@
+# Some basic info about your company
+company_name: Troppus Inc.
+from_email: support@example.com
+support_phone: 541-555-1234
+
+# Your custom field label
+custom_label: Dog or cat?
+
+# Used in account creation (account.rb)
+base_domain: bighelp.com

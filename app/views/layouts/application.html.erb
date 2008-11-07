@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> 
+<html> 
+<head> 
+   <title><%= AppConfig['company_name'] %></title> 
+   <%= stylesheet_link_tag 'reset-fonts-grids' %>
+   <%= stylesheet_link_tag 'big-help' %>
+</head> 
+<body> 
+<div id="doc" class="yui-t7"> 
+  <div id="hd"><h1><%= AppConfig['company_name'] %></h1></div> 
+  <div id="bd"> 
+    <div class="yui-ge"> 
+      <div class="yui-u first"> 
+        <div id="main"><%= yield %></div>
+      </div> 
+    <div class="yui-u">
+      <div id="side"> 
+        <h2>Contact Us</h2>
+        <p>Phone: <%= AppConfig['support_phone'] %></p>
+        <p><%= AppConfig['from_email'] %></p>
+      </div>
+    </div> 
+  </div> 
+  </div> 
+  <div id="ft">Footer is here.</div> 
+</div> 
+
+
+
+</body> 
+</html> 
