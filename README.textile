@@ -47,7 +47,7 @@ h3. Implemented
 * Ticket model
 * Help controller
 * Tickets can be submitted
-* Support users & authentication (via "Resful authetication":http://github.com/technoweenie/restful-authentication/tree)
+* Support users & authentication (via "Restful authentication":http://github.com/technoweenie/restful-authentication/tree)
 
 h3. Coming up
 
