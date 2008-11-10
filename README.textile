@@ -1,8 +1,8 @@
 h1. Welcome to BIG Help
 
-Welcome to BIG Help. BIG Help is an open-source help ticket system that can be used by consumer-focused web companies.
+Welcome to BIG Help. BIG Help is an open-source help ticket system that can be used by consumer-focused web companies. BIG Help is designed to be a simple (and free) alternative to online services such as "HelpSpot":http://www.userscape.com/products/helpspot/ and "Kayako":http://www.kayako.com/. 
 
-You can see a "real live version of BIG Help running here":http://www.beshifty.com/support. 
+While you can see a "real live version of BIG Help running here":http://www.beshifty.com/support, it's not quite ready for prime time. 
 
 h2. Setup
 

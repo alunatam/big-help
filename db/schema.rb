@@ -9,7 +9,16 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20081107164709) do
+ActiveRecord::Schema.define(:version => 20081110221336) do
+
+  create_table "messages", :force => true do |t|
+    t.integer  "ticket_id",  :limit => 11
+    t.integer  "user_id",    :limit => 11
+    t.string   "name"
+    t.text     "body"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "tickets", :force => true do |t|
     t.string   "token"
