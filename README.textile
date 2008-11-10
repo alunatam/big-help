@@ -2,7 +2,7 @@ h1. Welcome to BIG Help
 
 Welcome to BIG Help. BIG Help is an open-source help ticket system that can be used by consumer-focused web companies.
 
-You can see a "real live version of BIG Help running here":http://www.beshifty.com/support
+You can see a "real live version of BIG Help running here":http://www.beshifty.com/support. 
 
 h2. Setup
 
@@ -47,11 +47,11 @@ h3. Implemented
 * Ticket model
 * Help controller
 * Tickets can be submitted
+* Support users & authentication (via "Resful authetication":http://github.com/technoweenie/restful-authentication/tree)
 
 h3. Coming up
 
 * Email notification to customer
-* Adding support users & authentication
 * Email notifications to support users
 * Admin controller for support users (to browse tickets)
 * Ability to add messages to tickets
