@@ -2035,3 +2035,45 @@ dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--acadfd33f9cd874fe5172cd287
 Rendering template within layouts/application
 Rendering help/index
 Completed in 0.00483 (207 reqs/sec) | Rendering: 0.00265 (54%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HelpController#index (for 127.0.0.1 at 2008-11-07 09:47:09) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkGOgxjc3JmX2lkIiVkZjE3NDc2
+MzljMDJkYjIzYmMxY2RhYWY3MDhiYzk2MyIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--7bea297fda0c17eef0b2133017b07fa552ab3614
+  Parameters: {"action"=>"index", "controller"=>"help"}
+Rendering template within layouts/application
+Rendering help/index
+Completed in 0.00343 (291 reqs/sec) | Rendering: 0.00135 (39%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HelpController#index (for 127.0.0.1 at 2008-11-07 09:49:38) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMY3NyZl9pZCIlZGYxNzQ3NjM5YzAyZGIyM2Jj
+MWNkYWFmNzA4YmM5NjM6DHVzZXJfaWRpBiIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--acadfd33f9cd874fe5172cd287c6da9171939932
+  Parameters: {"action"=>"index", "controller"=>"help"}
+Rendering template within layouts/application
+Rendering help/index
+Completed in 0.00329 (303 reqs/sec) | Rendering: 0.00127 (38%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HelpController#index (for 127.0.0.1 at 2008-11-07 09:56:03) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMdXNlcl9pZGkGOgxjc3JmX2lkIiVkZjE3NDc2
+MzljMDJkYjIzYmMxY2RhYWY3MDhiYzk2MyIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--7bea297fda0c17eef0b2133017b07fa552ab3614
+  Parameters: {"action"=>"index", "controller"=>"help"}
+Rendering template within layouts/application
+Rendering help/index
+Completed in 0.00355 (281 reqs/sec) | Rendering: 0.00144 (40%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HelpController#new (for 127.0.0.1 at 2008-11-07 09:56:33) [GET]
+  Session ID: BAh7CToOcmV0dXJuX3RvMDoMY3NyZl9pZCIlZGYxNzQ3NjM5YzAyZGIyM2Jj
+MWNkYWFmNzA4YmM5NjM6DHVzZXJfaWRpBiIKZmxhc2hJQzonQWN0aW9uQ29u
+dHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVzZWR7AA==--acadfd33f9cd874fe5172cd287c6da9171939932
+  Parameters: {"action"=>"new", "controller"=>"help"}
+  [4;35;1mTicket Columns (0.000953)[0m   [0mSHOW FIELDS FROM `tickets`[0m
+Rendering template within layouts/application
+Rendering help/new
+Rendered help/_form (0.00411)
+Completed in 0.03125 (31 reqs/sec) | Rendering: 0.02458 (78%) | DB: 0.00095 (3%) | 200 OK [http://localhost/help/new]
